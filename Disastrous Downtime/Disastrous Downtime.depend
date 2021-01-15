@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1565418210 source:c:\users\shaohua\desktop\c++\disastrous downtime\main.cpp
+	<iostream>
+	<queue>
+	<math.h>
+

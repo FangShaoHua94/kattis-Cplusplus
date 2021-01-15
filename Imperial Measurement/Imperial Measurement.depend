@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1565936726 source:c:\users\shaohua\desktop\c++\imperial measurement\main.cpp
+	<iostream>
+	<iomanip>
+	<math.h>
+

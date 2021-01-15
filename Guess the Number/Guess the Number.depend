@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1565430802 source:c:\users\shaohua\desktop\c++\guess the number\main.cpp
+	<iostream>
+	<unistd.h>
+

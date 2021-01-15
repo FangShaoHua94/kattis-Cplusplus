@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1565599439 source:c:\users\shaohua\desktop\c++\ascii addition\main.cpp
+	<iostream>
+	<vector>
+

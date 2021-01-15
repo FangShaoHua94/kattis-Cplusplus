@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1565426226 source:c:\users\shaohua\desktop\c++\divide by 100\main.cpp
+	<iostream>
+	<math.h>
+	<string>
+

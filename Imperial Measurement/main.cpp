@@ -1,0 +1,69 @@
+#include <iostream>
+#include <iomanip>
+#include <stdio.h>
+
+using namespace std;
+
+int index(string a);
+
+int main()
+{
+    long double num;
+    string a,b;
+    cin>>num>>a>>b>>b;
+    int table[8]={1,1000,12,3,22,10,8,3};
+    int x=index(a),y=index(b);
+     if(x>y){
+        for(int i=x;i>y;i--){
+            num*=(long double)table[i];
+            //cout<<table[i]<<" "<<num<<endl;
+        }
+        cout<<setprecision(13)<<num<<endl;
+       return 0;
+    }
+    if(x<y){
+        double sum=1.0*num;
+        int denom=1;
+        for(int i=y;i>x;i--){
+            denom*=table[i];
+        }
+        if(sum/(1.0*denom)>0.0001){
+            cout<<setprecision(13)<<sum/(1.0*denom);
+        }else{
+            printf("%.13f\n",sum/(1.0*denom));
+        }
+
+
+        return 0;
+    }
+    cout<<num;
+    return 0;
+}
+
+int index(string a){
+    if(a=="th"||a=="thou"){
+        return 0;
+    }
+    if(a=="in"||a=="inch"){
+        return 1;
+    }
+    if(a=="ft"||a=="foot"){
+        return 2;
+    }
+    if(a=="yd"||a=="yard"){
+        return 3;
+    }
+    if(a=="ch"||a=="chain"){
+        return 4;
+    }
+    if(a=="fur"||a=="furlong"){
+        return 5;
+    }
+    if(a=="mi"||a=="mile"){
+        return 6;
+    }
+    if(a=="lea"||a=="league"){
+        return 7;
+    }
+    return -1;
+}

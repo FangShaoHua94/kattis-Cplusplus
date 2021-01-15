@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1566034190 source:c:\users\shaohua\desktop\c++\random quick sort\main.cpp
+	<iostream>
+	<cstdlib>
+

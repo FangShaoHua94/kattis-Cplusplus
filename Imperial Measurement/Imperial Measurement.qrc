@@ -1,0 +1,5 @@
+<RCC>
+	<qresource prefix="/">
+		<file>Imperial Measurement.qml</file>
+	</qresource>
+</RCC>

@@ -1,0 +1,15 @@
+LaunchTargetManager/configs/deis=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/n.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/rggsfd=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/sdvsv=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/sfvs.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:sfvs.exe,org.eclipse.launchbar.core.descriptorType.default\:athdb.exe,org.eclipse.launchbar.core.descriptorType.default\:n.exe
+eclipse.preferences.version=1
+org.eclipse.cdt.arduino.core.descriptorType\:rahfb/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:athdb.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:athdb.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:sfvs.exe/activeLaunchMode=run

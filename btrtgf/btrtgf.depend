@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1565934317 source:c:\users\shaohua\desktop\c++\btrtgf\main.cpp
+	<iostream>
+	<math.h>
+	<iomanip>
+
